@@ -1,0 +1,57 @@
+USE DATABASE amansinghbaghel;
+use warehouse aman_;
+CREATE OR REPLACE TABLE _AMAN_SALES_DATA
+(order_id Varchar(120),
+order_date varchar(120)PRIMARY KEY,
+ship_date varchar(120),
+ship_mode varchar(120),
+customer_name varchar(120) ,
+segment varchar (120),
+state varchar(120),
+country varchar(120),
+market varchar(120),
+region varchar(120),
+product_id varchar(120),
+category varchar(120),
+sub_category varchar(120),
+product_name varchar(200),
+sales varchar(120),
+quantity int,
+discount float,
+profit float,
+shipping_cost float,
+order_priority varchar(120),
+year varchar(120));
+select * from _aman_sales_data;
+-------- question 1. Load the given dataset into snowflake with a primary key to Order Date column.
+--------- question 2. Change the Primary key to Order Id Column.
+alter table _aman_sales_data drop primary key;
+alter table _aman_sales_data add primary key (order_id);
+describe table _aman_sales_data;
+--- question 3. Check the data type for Order date and Ship date and mention in what data type it should be?
+describe table _aman_sales_data;
+-- order_date = varchar
+-- ship_date = varchar
+------ question 4 Create a new column called order_extract and extract the number after the last ‘–‘from Order ID column.
+alter table _aman_sales_data add column order_extract varchar(120);
+select order_id, substring(order_id,9,12) from _aman_sales_data;
+update _aman_sales_data set order_extract= substring(order_id, 9,12);
+------ question 5 Create a new column called Discount Flag and categorize it based on discount.Use ‘Yes’ if the discount is greater than zero else ‘No’.
+alter table _aman_sales_data add column discount_flag varchar(120);
+update  _AMAN_sales_data set discount_flag = 'yes' where discount > 0 ;
+update _AMAN_sales_data set discount_flag = 'false'where discount = 0;
+------ question 6. Create a new column called process days and calculate how many days it takes for each order id to process from the order to its shipment.
+alter table _aman_sales_data add column process_days varchar (120);
+select order_date, ship_date, datediff(day,order_date, ship_date) from _aman_sales_data; 
+update _aman_sales_data set process_days=datediff(day,order_date, ship_date);
+----- question 7.Create a new column called Rating and then based on the Process dates give rating like given below.
+select * from _aman_sales_data;
+alter table _aman_sales_data add column Rating varchar(120);
+update _aman_sales_data set rating='5' where process_days<=3;
+update _aman_sales_data set rating='4'where process_days > 3 and process_days <=6;
+update _aman_sales_data set rating= '3'where process_days > 6 and process_days <=10;
+update _aman_sales_data set rating= '2'where process_days>10;
+select * from _aman_sales_data;
+describe table _aman_sales_data;
+---------end---------------
+
