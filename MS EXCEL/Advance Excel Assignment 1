@@ -1,0 +1,17 @@
+                                                      Advance Excel Assignment 1
+1.What do you mean by cells in an excel sheet?
+Answer-A cell in Excel is a rectangular-shaped box on the spreadsheet and the basic unit of Excel.
+ Cells are the intersection of columns (labeled as alphabets) and rows (labeled as numbers).
+2. How can you restrict someone from copying a cell from your worksheet?
+Answer- On the workwook, select the cells you want to lock. Press Ctrl+Shift+F again. On the Protection tab, check the Locked box, and click OK. 
+To protect the sheet, click Review > Protect workbook. 
+3. How to move or copy the worksheet into another workbook?
+Answer-On the Edit menu, click Sheet > Move or Copy Sheet.
+4.4. Which key is used as a shortcut for opening a new window document?
+answer- press Ctrl+N. Open the New page.
+5. What are the things that we can notice after opening the Excel interface?
+Answer-The interface components of Excel include the Quick Access Toolbar, Ribbon, Name Box, Formula Quick Menu, Formula Bar, Status Bar, 
+Worksheet, Rows, columns etc.
+6. When to use a relative cell reference in excel?
+Answer-It is the combination of column name and row number. It helps the software to identify the cell from where the data/value is to be used in the formula.
+ We can reference the cell of other worksheets and also of other programs.
