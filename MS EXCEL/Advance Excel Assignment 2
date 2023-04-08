@@ -1,0 +1,26 @@
+                                                Advance Excel Assignment 2
+1. What does the dollar($) sign do?
+answer-	$ symbol in Excel locks a specific cell or rows or columns in a worksheet. 
+This feature is used while working on formulas when we do not want the reference to be changed when copying or dragging the formula to other cell references.
+2. How to Change the Reference from Relative to Absolute (or Mixed)?	
+answer-Changing a cell from a relative to an absolute reference can be done by following the steps below.
+a.Open Microsoft Excel.
+b.Highlight the cell containing the formula you want to have changed to an absolute or relative reference.
+c.Click the formula box (shown below) or highlight the formula and press the F4 key to switch between an absolute and relative cell reference.	
+3. Explain the order of operations in excel?
+answer-Excel's order of operation follows the acronym PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction) 
+but with some customization to handle the formula syntax in a spreadsheet. 
+4. What, according to you, are the top 5 functions in excel and write a basic syntax
+for any of two?
+answer-(a)SUM Function-  SUM(number1, [number2],...).
+(b)AVERAGE Function-AVERAGE(number1, [number2], …).
+5. When would you use the subtotal function?
+answer-The SUBTOTAL function is used when you display a Total row in an Excel Table. Excel inserts the SUBTOTAL function automatically, 
+and you can use a drop-down menu to switch behavior and show max, min, average, etc.
+answer-The SUBTOTAL function is used when you display a Total row in an Excel Table. Excel inserts the SUBTOTAL function automatically,
+and we can use a drop-down menu to switch behavior and show max, min, average, etc.
+6. What is the syntax of the vlookup function? Explain the terms in it?
+answer-=VLOOKUP( lookup_value, table_array, column_index, range_lookup )
+explain- ‘lookup_value’ specifies the value to be searched inside the ‘table_array’. It can either be a value or a reference.
+‘table_array’ is the range with two or more columns. ‘table_array’ argument can receive a range reference or a named range. 
+The leftmost column of this range must contain the ‘lookup_value'.
