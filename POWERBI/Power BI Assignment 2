@@ -1,0 +1,38 @@
+                                                Power BI Assignment 2
+Question 1.Explain the advantages of Natural Queries in PowerBi with an example?
+Answer 1-a) - Guided NLQ is a unique self-service BI experience.
+b) - Guided NLQ is a unique self-service BI experience
+c) It's easy to embed Guided NLQ into our applications
+Question 2.Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+Answer-The WFE cluster uses Azure AD to authenticate clients, and provide tokens for subsequent client connections to the Power BI service.
+question 3.Explain Back End cluster from Power BI Service Architecture?
+Answer-It manages the datasets, reports, storage, visualizations, data refreshing, data connections, and other services in the Power BI.
+Question 4.What ASP.NET component does in Power BI Service Architecture?
+Answer-Power BI is an online software service offering from Microsoft that lets you easily and quickly 
+create self-service Business Intelligence dashboards, reports, datasets, and visualizations. With Power BI,
+you can connect to many different data sources, combine and shape data from those connections, then create reports and dashboards that can be shared with others.
+Question 6.List 20 data sources supported by Power Bi desktop.
+Answer-data source supported by power bi are-:
+SQL Server database
+Access database
+SQL Server Analysis Services database
+Oracle database
+IBM Db2 database
+IBM Informix database (Beta)
+IBM Netezza
+MySQL database
+PostgreSQL database
+Sybase database
+Teradata database
+SAP HANA database
+SAP Business Warehouse Application Server
+SAP Business Warehouse Message Server
+Amazon Redshift
+Impala
+Google BigQuery
+Google BigQuery (Azure AD)(Beta)
+Vertica
+Snowflake
+Essbase
+Actian (Beta)
+Amazon Athena
