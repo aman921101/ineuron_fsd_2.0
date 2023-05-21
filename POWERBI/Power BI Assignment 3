@@ -1,0 +1,24 @@
+                                                           Power BI Assignment 3
+Question 1. List and explain different PowerBi products?
+Answer 1 a Power Query
+b Power Pivot 
+c Power View 
+d Power Map 
+Question 2. What limitations of Excel, Microsoft solved by PowerBi?
+Answer2 Power BI handles Big Data, while Microsoft Excel cannot handle Big Data. Power BI can connect with different varieties of sources,
+while Microsoft Excel can connect to limited sources.
+Power BI dashboards are more interactive and custom, while Microsoft Excel dashboards are less interactive.
+Question 3 Explain PowerQuery?
+Answer 3. Power Query is a data transformation and data preparation engine. 
+Power Query comes with a graphical interface for getting data from sources and a Power Query Editor for applying transformations.
+Question 4. A power map lets you discover insights you might not see in traditional two-dimensional (2-D) tables and charts. 
+With Power Map, you can plot geographic and temporal data on a 3-D globe or custom map, show it over time, and create visual tours you can share with other people.
+Question 5. How powerBi eliminated the need to host SharePoint Server on premises?
+Answer 5. share point is an important part of how many organizations organize and distribute BI content to users. In recognition of how important this approach is, we’ve invested in modernizing and creating deeper integrations with SharePoint.
+Over the last year, we have introduced the Power BI webpart for SharePoint Online and an updated Reporting Services Report Viewer webpart for SharePoint on-premises.
+Question 6 Explain the updates done in Power Bi Service(power BI 2.0) as compared to older version ?
+Answer 6. The following updates are new to Power BI Desktop
+a.Reporting
+b.Analytics
+c.Modeling
+d.Data connectivity
