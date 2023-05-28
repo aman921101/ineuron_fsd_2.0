@@ -1,0 +1,18 @@
+                                                                   Advance Excel Assignment 5
+Quesdtion 1. 1. How many types of conditions are available in conditional formatting on Excel?
+Answer - In Excel, conditional formatting offers four types of icon sets, directional, shapes, indicators, and ratings.
+we can use these sets of icons on numeric data in a column to represent the cell values in a column or range of cells.
+Question 2. How to insert border in Excel with Format Cells dialog?
+Answer a.Click Home > the Borders arrow .
+b.Pick Draw Borders for outer borders or Draw Border Grid for gridlines.
+c.Click the Borders arrow > Line Color arrow, and then pick a color.
+d.Click the Borders arrow > Line Style arrow, and then pick a line style.
+e.Select cells you want to draw borders around.
+Question 3. How to Format Numbers as Currency in Excel?
+Answer. Select the cells that you want to format and then, in the Number group on the Home tab, click the down arrow in the Number Format box.
+Choose either Currency or Accounting.
+Question 4. What are the steps to format numbers in Excel with the Percent style?
+Answer - Click the first cell and press Shift while we click the last cell in the range we want to merge. Make sure only one of the cells in the range has data.
+Click Home > Merge & Center.
+Question 5. How do you use text commands in Excel?
+Answer- Select the column, or range where you'll be putting the values, then use CTRL+1 to bring up the Format > Cells dialog and on the Number tab select Text.
